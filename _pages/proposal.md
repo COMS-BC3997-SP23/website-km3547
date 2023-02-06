@@ -46,6 +46,3 @@ permalink: /proposal/
 **Outside Explanations/Materials:**
 - [Autonomous Car Levels](https://www.carmagazine.co.uk/car-news/tech/autonomous-car-levels-different-driverless-technology-levels-explained/#:~:text=Level%205%20driverless%20cars%3A%20fully,called%20'operational%20design%20domain)
 - [What is an ROS node?](https://roboticsbackend.com/what-is-a-ros-node/#:~:text=A%20ROS%20node%2C%20according%20to,%2C%20services%2C%20actions%2C%20etc)
-
-
-
