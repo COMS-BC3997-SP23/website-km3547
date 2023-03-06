@@ -16,7 +16,7 @@ After completing research about Computer Vision models to be used on the car, an
 
 Since I am introducing new elements to the circuitry, I had to create schematic diagrams connecting the Raspberry Pi, Motor driver, Servo, and on-board battery. Here is the most up to date schematic:
 
-![Schematic](/images/car_schematic.jpg)
+![Schematic](../images/car_schematic.jpg)
 
 I started by Mapping out where to place each piece on the bed of the truck, then decided it would be best to 3D print a case for the Pi as well as a block for it to stand on. After printnig each of those I began the electrical connections. 
 
