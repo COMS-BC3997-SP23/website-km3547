@@ -20,7 +20,7 @@ Since I am introducing new elements to the circuitry, I had to create schematic 
 
 I started by Mapping out where to place each piece on the bed of the truck, then decided it would be best to 3D print a case for the Pi as well as a block for it to stand on. After printnig each of those I began the electrical connections. 
 
-![Soldering video]()
+![Soldering video](../images/soldering.MOV)
 
 At this point, the car has been 90% constructed with the absence of a camera holder, which will be done soon. This is the current state of the RC Car:
 
