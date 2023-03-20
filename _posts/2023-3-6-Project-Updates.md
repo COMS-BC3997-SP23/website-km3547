@@ -26,7 +26,7 @@ At this point, the car has been 90% constructed with the absence of a camera hol
 
 ![3D Printed parts](../images/3d_printed_parts.jpg)
 
-**WHat's next?**
+**What's next?**
 I need to mount the camera and protect the bed of the car with the main circuitry, and load all of the models from the open-source donkey car library onto the raspberry pi, which is when we'll see if the car is wired correctly. Hopefully I didn't break anything!
 
 
