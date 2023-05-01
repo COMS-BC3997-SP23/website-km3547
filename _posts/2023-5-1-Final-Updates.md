@@ -4,9 +4,11 @@ title: Final Update
 ---
 
 **Where am I now?**
-Since my last update, the hardware of Ironhide is completely finished. I initially encountered problems with the DC actuator not working or being connected, but I was able to troubleshoot and find out that my problem was the lack of a connection between the Raspberry Pi and the standby port of the Pololu Motor Driver. Once I added the connection, I found that power had to be supplied to the standby connection, as well as the PWM module must be activated in order to have the motor working correctly. A full picture of Ironhide can be seen below.
+Since my last update, the hardware of Ironhide is completely finished. I initially encountered problems with the DC actuator not working or being connected, but I was able to troubleshoot and find out that my problem was the lack of a connection between the Raspberry Pi and the standby port of the Pololu Motor Driver. Once I added the connection, I found that power had to be supplied to the standby connection, as well as the PWM module must be activated in order to have the motor working correctly. My final circuit design, and a full picture of Ironhide can be seen below.
 
 ![Ironhide](../images/ironhide.jpg)
+
+![Wiring schematic](../images/wiring_schematic.jpg)
 
 Test files for each component of the car were created and have been uploaded to the [Ironhide GitHub repository](https://github.com/kofimeighan/ironhide). 
 
