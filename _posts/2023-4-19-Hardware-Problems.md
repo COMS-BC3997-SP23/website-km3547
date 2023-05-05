@@ -1,0 +1,6 @@
+---
+layout: post
+title: Hardware Problems
+---
+
+After deciding to author my own code library, I decided I should first author hardware tests because I hadn't done that yet. I created a [GitHub Repository for Ironhide](https://github.com/kofimeighan/ironhide) and started with elementary tests utilizing the GPIO python library. After creating [motortest.py](https://github.com/kofimeighan/ironhide/blob/main/motortest.py) and [servotest.py](https://github.com/kofimeighan/ironhide/blob/main/servotest.py) I found that my servo worked, but without exact details on the frequency the servo operates, I wasn't able to find the true middle value for the duty cycle. I just did train and error to find the best middle I could between duty cycle values of 2 to 12. After messing with those values, I found that the motor didn't work at all, and I started to panic a bit. I had spent so much time on the hardware, and I barely had anything to show for it. After I encountered this roadblock I became set on fixing it, so I searched the web for documentation on interacting with DC actuators, Motor Drivers, and a Raspberry Pi. I finally found the problem, which was a missing standby connection between the raspberry pi and the motor driver. 
